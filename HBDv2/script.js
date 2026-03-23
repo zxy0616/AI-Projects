@@ -99,10 +99,10 @@ function init() {
     farMountains = []; nearMountains = [];
     let fx = 0;
     while(fx <= width) {
-        farMountains.push({ x: fx, y: height * 0.65 - Math.random() * 80 });
+        farMountains.push({ x: fx, y: height * 0.8 - Math.random() * 80 });
         fx += Math.random() * 60 + 20; 
     }
-    farMountains.push({ x: width + 100, y: height * 0.65 });
+    farMountains.push({ x: width + 100, y: height * 0.8 });
 
     let nx = 0;
     while(nx <= width) {
