@@ -327,9 +327,9 @@ function draw() {
     ctx.fillRect(0, 0, width, height);
 
     drawAuroras();   
-    
-    drawMountains(); 
     drawParticles(); 
+    drawMountains(); 
+    
     drawHbdVideo();  // 智能渲染视频或提示语
 
     tick += 1.8; 
