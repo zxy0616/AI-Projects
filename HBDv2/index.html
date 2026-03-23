@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;">
+    <title>宝宝生日快乐！</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="auroraCanvas"></canvas>
+
+    <video class="input_video" style="display: none;" playsinline muted></video>
+
+    <video id="hbdVideo" style="display: none;" src="HBD.mp4" autoplay loop muted playsinline></video>
+    
+    <audio id="bgmAudio" src="BGM.mp3" loop></audio>
+
+    <div class="ui">
+        <h1>给宝宝的电子极光！</h1>
+        <p>滑动鼠标拨动极光 | 在摄像头前捏合【拇指与食指】有彩蛋！（可能需要捏紧点！）</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
