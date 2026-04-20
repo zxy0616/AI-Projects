@@ -5,13 +5,13 @@
 
 
 **当前基础功能流：** 登录页——无日程首页推荐——新建日程——设置日程偏好、意向地点等信息——发布招募贴、设置招募条件——游友圈帖子浏览——查看招募贴及招募管理
-——团队AI协作群聊——查看方案——回到已有日程提醒主页——查看已有日程
+——团队AI协作群聊——AI根据多用户需求修改方案——查看方案——回到已有日程提醒主页——查看已有日程
 
-**V0.dev可交互demo试用**：https://v0-wegethere.vercel.app/（基于下方figma原型页面制作）
+**V0.dev可交互demo试用**：https://v0-wegethere.vercel.app/   （基于下方figma原型页面制作）
 
 **代码库直达**：https://github.com/zxy0616/v0-wegethere-app-demo
 
-**基础功能流可交互原型链接：** https://www.figma.com/proto/Ht616ZoVql8MZ8okehaszx/WeGeThere?node-id=2-2&viewport=-76%2C267%2C0.23&t=pdHeQnnu5xeLcCaq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2&show-proto-sidebar=1&page-id=0%3A1
+**可交互原型链接（设计更美观一些）：** https://www.figma.com/proto/Ht616ZoVql8MZ8okehaszx/WeGeThere?node-id=2-2&viewport=-76%2C267%2C0.23&t=pdHeQnnu5xeLcCaq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A2&show-proto-sidebar=1&page-id=0%3A1
 
 目前仅以上功能可交互，其他功能陆续优化ing
 
@@ -37,7 +37,7 @@
 ### 2.1 核心用户画像
 1. **盲目探索者**：想出游但无明确目的地，厌恶繁杂的社交媒体推荐 。
 2. **异地聚合群**：多位好友分布于同城不同区域，对集合点的公平性与便捷度有强需求。
-3. **多人旅行规划困难者 (新增)**：长途旅行目标筛选耗时、难以均衡各方喜好、订票定酒店等全过程攻略过于繁琐 。
+3. **多人旅行规划困难者**：长途旅行目标筛选耗时、难以均衡各方喜好、订票定酒店等全过程攻略过于繁琐 。
 4. **社交寻求者**：有目的地但无同伴，对网络组队的安全性高度敏感。
 
 ### 2.2 典型场景
